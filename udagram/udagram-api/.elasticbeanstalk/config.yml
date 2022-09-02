@@ -2,7 +2,7 @@ branch-defaults:
   default:
     environment: Udagram-api-dev
 deploy:
-  artifact: ./www/Archive.zip
+  artifact: www/Archive.zip
 environment-defaults:
   Udagram-api-dev:
     branch: null
