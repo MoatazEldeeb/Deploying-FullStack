@@ -46,7 +46,7 @@ jobs:
       - run:
           name: Installing AWS Elasticbeanstalk
           command: |
-            npm run backend:aws-eb      
+            npm run api:aws-eb      
       
   # deploy step will run only after manual approval
   deploy:
