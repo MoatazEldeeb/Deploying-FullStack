@@ -10,8 +10,8 @@
         "api:install": "cd udagram/udagram-api && npm install .",
         "api:build": "cd udagram/udagram-api && npm run build",
         "api:start": "cd udagram/udagram-api && npm run dev",
-        "api:deploy": "cd udagram-api && npm run deploy",
-        "api:aws-eb": "cd udagram-api && npm run aws-eb",
+        "api:deploy": "cd udagram/udagram-api && npm run deploy",
+        "api:aws-eb": "cd udagram/udagram-api && npm run aws-eb",
         "deploy": "npm run api:deploy && npm run frontend:deploy"
     }
 }
