@@ -1,3 +1,3 @@
-eb init udagram-apiv1 --region us-east-1
-eb use udagram-apiv1-dev
-eb deploy
+
+eb use udagram-api-dev
+eb deploy udagram-api-dev
