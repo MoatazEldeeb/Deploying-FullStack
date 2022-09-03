@@ -30,6 +30,6 @@ The project can run but is missing some information to connect to the database a
 
 ## Documentation
 
-- Detailed Documentation is provided in `./Docs/README.md`
-- Screenshots of the AWS configurations and the CircleCI are provided in `./Docs/Screenshots/`
-- Architecture Diagrams of the AWS and the Pipeline are provided in `./Docs/Architecture Diagrams/`
+- Detailed Documentation is provided in `./documentation/README.md`
+- Screenshots of the AWS configurations and the CircleCI are provided in `./documentation/Screenshots/`
+- Architecture Diagrams of the AWS and the Pipeline are provided in `./documentation/Architecture Diagrams/`
