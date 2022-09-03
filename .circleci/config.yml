@@ -60,9 +60,9 @@ jobs:
 workflows:
   udagram:
     jobs:
-      triggers:
-        - build
-          filters:
-            branches:
-              only:
-                - main
+      - build
+        context: aws
+        filters:
+          branches:
+            only:
+              - main
