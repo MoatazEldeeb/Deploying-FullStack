@@ -60,8 +60,9 @@ jobs:
 workflows:
   udagram:
     jobs:
-      - build
-        filters:
-          branches:
-            only:
-              - main
+      triggers:
+        - build
+          filters:
+            branches:
+              only:
+                - main
