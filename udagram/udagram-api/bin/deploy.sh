@@ -1,5 +1,3 @@
-eb use udagram-api-dev
-eb deploy udagram-api-dev
 eb setenv AWS_ACCESS_KEY_ID= $AWS_ACCESS_KEY_ID
 eb setenv AWS_BUCKET= $AWS_BUCKET
 eb setenv AWS_DEFAULT_REGION= $AWS_DEFAULT_REGION
@@ -13,3 +11,5 @@ eb setenv POSTGRES_PASSWORD= $POSTGRES_PASSWORD
 eb setenv POSTGRES_USERNAME= $POSTGRES_USERNAME
 eb setenv RDS_DIALECT= $RDS_DIALECT
 eb setenv URL= $URL
+eb use udagram-api-dev
+eb deploy udagram-api-dev
