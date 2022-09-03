@@ -60,8 +60,7 @@ jobs:
 workflows:
   udagram:
     jobs:
-      - build
-        context: aws
+      - build:
         filters:
           branches:
             only:
